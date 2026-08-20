@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'https://note-app-iu3g.onrender.com/',
+    origin: 'https://note-app-ten-lemon.vercel.app/',
     credentials: true
 }));
 app.use(express.json());
