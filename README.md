@@ -113,4 +113,3 @@ A full-stack note-taking application where users can register, log in, and manag
 - Frontend is deployed on Vercel (https://vercel.com)
 - Backend is deployed on Render (https://render.com)
 - Database is hosted on MongoDB Atlas (https://www.mongodb.com/atlas)
-READMEEOF
