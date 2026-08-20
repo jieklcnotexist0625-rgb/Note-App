@@ -7,7 +7,7 @@ export default function NoteCard({ note, onEdit, onDelete }) {
                 <span className="text-xs text-gray-600">
                     {new Date(note.updatedAt).toLocaleDateString()}
                 </span>
-                <div className="gap-2 hidden group-hover:flex">
+                <div className="gap-2 flex">
                     <button onClick={onEdit} className="text-sm text-blue-400 hover:text-blue-300">Edit</button>
                     <button onClick={onDelete} className="text-sm text-red-400 hover:text-red-300">Delete</button>
                 </div>
