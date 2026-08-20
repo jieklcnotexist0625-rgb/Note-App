@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = 'https://your-backend-url.onrender.com/api'; // Update later
+const API_URL = 'https://note-app-iu3g.onrender.com/';
 
 export function AuthProvider({ children }) {
     const [user, setUser] = useState(null);

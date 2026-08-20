@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import NoteCard from '../components/NoteCard';
 import NoteModal from '../components/NoteModal';
 
-const API_URL = 'https://your-backend-url.onrender.com/api';
+const API_URL = 'https://note-app-iu3g.onrender.com/';
 
 export default function Dashboard() {
     const [notes, setNotes] = useState([]);

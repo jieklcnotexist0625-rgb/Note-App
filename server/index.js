@@ -9,7 +9,10 @@ const noteRoutes = require('./routes/notes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: 'https://note-app-iu3g.onrender.com/',
+    credentials: true
+}));
 app.use(express.json());
 
 // Routes
